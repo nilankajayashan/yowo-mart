@@ -1,0 +1,71 @@
+.logo{
+    width: 200px;
+}
+ /*footer*/
+.footer-link{
+    text-decoration: none !important;
+}
+footer{
+    bottom: 0;
+}
+/*caresoul    */
+.carousel-item{
+    background-color: #F6FAFD;
+}
+/*caresoul end*/
+
+.btn-icon{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+
+/*1form  {*/
+/*    margin: 60px 0 0 0 !important;*/
+/*}*/
+
+.ui-slider .ui-btn-inner {
+    padding: 4px 0 0 0 !important;
+}
+
+.ui-slider-popup {
+    position: absolute !important;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 14px;
+    z-index: 100;
+    opacity: 0.8;
+}
+
+
+/*media quries*/
+.toup{
+    top: 0px !important;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .toup{ top: -60px !important;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .toup{ top: -60px !important;}
+}
+
+.product:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+}
+.modal-dialog-bottom{
+    position:fixed !important;
+    top:auto !important;
+    right:auto !important;
+    left:auto !important;
+    bottom:0 !important;
+}
